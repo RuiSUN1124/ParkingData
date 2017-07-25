@@ -1,5 +1,5 @@
 var mqtt = require('mqtt');
-var MQTT_ADDR = "ws://106.14.142.169:8083/mqtt";
+var MQTT_ADDR = "ws://106.14.14.169:8083/mqtt";
 //var MQTT_PORT = 1883;
 var client = mqtt.connect(MQTT_ADDR, { clientId: 'testnodejs', connectTimeout: 1000, debug: true }, (err) => {
     if (err) {
