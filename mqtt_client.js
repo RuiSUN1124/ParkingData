@@ -1,7 +1,7 @@
 var mqtt = require('mqtt');
 var pData = require('./models/pData');
 var bitwise = require('bitwise');
-var MQTT_ADDR = "ws://106.14.142.169:8083/mqtt";
+var MQTT_ADDR = "ws://106.14.14.169:8083/mqtt";
 //var MQTT_PORT = 1883;
 var client = mqtt.connect(MQTT_ADDR, { clientId: 'ruinodejs', connectTimeout: 1000, debug: true }, (err) => {
     if (err) {
